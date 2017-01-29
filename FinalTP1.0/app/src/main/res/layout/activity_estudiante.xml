@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.juan.finaltp10.Estudiante"
+    android:background="@android:color/holo_green_light">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+    </android.support.design.widget.AppBarLayout>
+
+    <Button
+        android:text="Registro"
+        android:id="@+id/boton_registro"
+        android:layout_margin="200dp"
+        android:layout_width="208dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center|bottom"
+/>
+
+    <Button
+        android:text="Noticias"
+        android:layout_margin="200dp"
+        android:layout_width="238dp"
+        android:layout_height="45dp"
+        android:id="@+id/botonnoti"
+        android:layout_gravity="center"
+
+        />
+
+    <Button
+        android:text="Academia"
+
+        android:id="@+id/boton"
+        android:layout_margin="180dp"
+        android:layout_width="192dp"
+        android:layout_height="46dp"
+        android:elevation="0dp"
+        android:allowUndo="false" />
+
+    <Button
+        android:text="Busqueda Google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/busqueda" />
+
+</android.support.design.widget.CoordinatorLayout>
