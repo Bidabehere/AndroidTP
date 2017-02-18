@@ -16,7 +16,7 @@
     </android.support.design.widget.AppBarLayout>
 
     <Button
-        android:text="Registro"
+        android:text="@string/registry"
         android:id="@+id/boton_registro"
         android:layout_margin="200dp"
         android:layout_width="208dp"
@@ -25,7 +25,7 @@
 />
 
     <Button
-        android:text="Noticias"
+        android:text="@string/notices"
         android:layout_margin="200dp"
         android:layout_width="238dp"
         android:layout_height="45dp"
@@ -35,7 +35,13 @@
         />
 
     <Button
-        android:text="Academia"
+        android:text="Search Google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/busqueda" />
+
+    <Button
+        android:text="@string/academy"
 
         android:id="@+id/boton"
         android:layout_margin="180dp"
@@ -43,11 +49,5 @@
         android:layout_height="46dp"
         android:elevation="0dp"
         android:allowUndo="false" />
-
-    <Button
-        android:text="Busqueda Google"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/busqueda" />
 
 </android.support.design.widget.CoordinatorLayout>
